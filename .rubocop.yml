@@ -1,0 +1,27 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  EnabledByDefault: true
+  ExtraDetails: true
+
+Style/Copyright:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DocumentationMethod:
+  Enabled: false
+
+Style/FileName:
+  Exclude:
+    - Appraisals
+
+Style/InlineComment:
+  Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
+Style/MissingElse:
+  Enabled: false
