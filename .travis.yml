@@ -1,0 +1,20 @@
+cache: bundler
+rvm:
+  - 1.9.3
+  - 2.0.0
+  - 2.1.4
+  - 2.2.1
+  - 2.3.0
+  - jruby-1.7.22
+  - jruby-9.0.0.0.pre1
+gemfile:
+  - gemfiles/rspec-3.0.gemfile
+  - gemfiles/rspec-3.1.gemfile
+  - gemfiles/rspec-3.2.gemfile
+  - gemfiles/rspec-3.3.gemfile
+  - gemfiles/rspec-3.4.gemfile
+  - gemfiles/rspec-3.5.gemfile
+before_install:
+  - rvm @global do gem install bundler
+  - rvm @global do bundle install
+script: bundle exec rake
