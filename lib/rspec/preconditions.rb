@@ -1,4 +1,4 @@
-require "rspec/preconditions/version"
+require 'rspec/preconditions/version'
 
 module Rspec
   module Preconditions
