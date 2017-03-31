@@ -1,6 +1,6 @@
 require 'rspec/preconditions/version'
 
-module Rspec
+module RSpec
   module Preconditions
     # Your code goes here...
   end

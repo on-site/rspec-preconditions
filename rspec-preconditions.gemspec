@@ -5,7 +5,7 @@ require 'rspec/preconditions/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'rspec-preconditions'
-  spec.version       = Rspec::Preconditions::VERSION
+  spec.version       = RSpec::Preconditions::VERSION
   spec.authors       = ['Isaac Betesh']
   spec.email         = ['ibetesh@on-site.com']
 
